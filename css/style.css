@@ -197,6 +197,22 @@ h1, h2, h3 {
 }
 
 /* 🔹 SECTION CONTACT */
+
+.cover-bottom {
+    background-image: url('../img/office_tourisme_paris.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0 0 20px 20px; 
+
+    height: 50vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: inset 0 0 0 1000px rgba (0, 0, 0, 0.3);
+
 .contact-info {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -244,6 +260,6 @@ h1, h2, h3 {
     }
 }
 
-html {
+html{
     scroll-behavior: smooth;
-}
+    }
