@@ -34,7 +34,7 @@ h1, h2, h3 {
     font-weight: 700;
 }
 
-/* 🔹 MENU (ancre de sections + logo drapeau FR) */
+/* MENU (ancre de sections + logo drapeau FR) */
 .menu {
     background-color: #ffffff;
     padding: 20px 0;
@@ -68,12 +68,12 @@ h1, h2, h3 {
 }
 
 .menu a:hover {
-    color: #0d47a1; /* Bleu marine plus foncé */
+    color: #0d47a1;
 }
 
-/* 🔹 SECTIONS GÉNÉRALES */
+/* SECTIONS GÉNÉRALES */
 .section {
-    padding: 120px 0; /* Espacement vertical (respecte tes 80-150px) */
+    padding: 60px 0; /* Espacement vertical */
     background-color: #ffffff;
 }
 
@@ -112,7 +112,7 @@ h1, h2, h3 {
     color: white;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5); /* Ombre pour améliorer la lisibilité du texte */
 }
-/* 🔹 SECTION HISTOIRE */
+/* SECTION HISTOIRE */
 .history-content {
     display: flex;
     gap: 50px;
@@ -147,7 +147,7 @@ h1, h2, h3 {
     color: white;
     box-shadow: inset 0 0 0 1000px rgba (0, 0, 0, 0.3);
 }
-/* 🔹 SECTION CULTURE */
+/* SECTION CULTURE */
 .culture-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -186,7 +186,7 @@ h1, h2, h3 {
     line-height: 1.6;
 }
 
-/* 🔹 SECTION ÉVÉNEMENTS */
+/* SECTION ÉVÉNEMENTS */
 .events-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -225,7 +225,7 @@ h1, h2, h3 {
     line-height: 1.6;
 }
 
-/* 🔹 SECTION CONTACT */
+/* SECTION CONTACT */
 
 .cover-bottom {
     background-image: url('../img/office_tourisme_paris.webp');
@@ -266,7 +266,7 @@ h1, h2, h3 {
     line-height: 1.8;
 }
 
-/* 🔹 RÉPONSIVE (mobile) */
+/* RÉPONSIVE (mobile) */
 @media (max-width: 768px) {
     .menu ul {
         flex-direction: column;
