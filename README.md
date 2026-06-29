@@ -105,3 +105,7 @@ python3 -m http.server 8080
 - 🤝 Développé en collaboration via branches Git
 
 ---
+## 👨‍💻 Authors
+
+- Kevin Rigal (splint314) — krigal323@gmail.com
+- Erwan Barat (Rwanbt) — barat.erwan@gmail.com
