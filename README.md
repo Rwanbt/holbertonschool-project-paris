@@ -105,6 +105,21 @@ python3 -m http.server 8080
 - 🤝 Développé en collaboration via branches Git
 
 ---
+
+## 🗂️ Structure du projet
+holbertonschool-project-paris/
+
+├── index.html        # Page principale du site
+
+├── css/
+
+│   └── styles.css    # Feuille de styles principale
+
+├── img/              # Images et visuels du site
+
+└── README.md
+
+---
 ## 👨‍💻 Authors
 
 - Kevin Rigal (splint314) — krigal323@gmail.com
