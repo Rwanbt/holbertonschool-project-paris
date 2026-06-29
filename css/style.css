@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+.cover {
+    background-image: url('../img/louvre.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0 0 20px 20px; /* Arrondir les coins inférieurs */
+
+    height: 50vh; /* 50% de la hauteur de l'écran */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3); /* Ombre pour améliorer la lisibilité du texte */
+}
+body {
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    color: #212127;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+/* MENU (ancre de sections + logo drapeau FR) */
+.menu {
+    background-color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.menu .logo {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #1a237e; /* Bleu marine foncé */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #0d47a1;
+}
+
+/* SECTIONS GÉNÉRALES */
+.section {
+    padding: 60px 0; /* Espacement vertical */
+    background-color: #ffffff;
+}
+
+.section h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #1a237e; /* Bleu marine foncé */
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+}
+
+/* 🔹 SECTION ACCUEIL */
+#accueil .container p {
+    font-family: 'Montserrat', sans-serif;
+    color: #424242; /* Gris foncé */
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+    text-align: center;
+}
+.footer {
+    justify-content: center;
+    text-align: center;
+    background-image: url('../img/cité_des_sciences.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0 0; /* Arrondir les coins inférieurs */
+
+    height: 10vh; /* 50% de la hauteur de l'écran */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5); /* Ombre pour améliorer la lisibilité du texte */
+}
+/* SECTION HISTOIRE */
+.history-content {
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.history-summary, .history-details {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.history-summary h3, .history-details h3 {
+    color: #1a237e;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.spacer {
+    background-image: url('../img/Paris-banniere-milieu.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 20px 20px; 
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: inset 0 0 0 1000px rgba (0, 0, 0, 0.3);
+}
+/* SECTION CULTURE */
+.culture-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.culture-item {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.culture-item:hover {
+    transform: translateY(-10px);
+}
+
+.culture-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.culture-item h3 {
+    padding: 20px;
+    color: #1a237e;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.culture-item p {
+    padding: 0 20px 20px;
+    color: #424242;
+    line-height: 1.6;
+}
+
+/* SECTION ÉVÉNEMENTS */
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.event-item {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.event-item:hover {
+    transform: translateY(-10px);
+}
+
+.event-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-item h3 {
+    padding: 20px;
+    color: #1a237e;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.event-item p {
+    padding: 0 20px 20px;
+    color: #424242;
+    line-height: 1.6;
+}
+
+/* SECTION CONTACT */
+
+.cover-bottom {
+    background-image: url('../img/office_tourisme_paris.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 20px 20px; 
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: inset 0 0 0 1000px rgba (0, 0, 0, 0.3);
+}
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.contact-item {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.contact-item h3 {
+    color: #1a237e;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.contact-item p {
+    color: #424242;
+    line-height: 1.8;
+}
+
+/* RÉPONSIVE (mobile) */
+@media (max-width: 768px) {
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .history-content {
+        flex-direction: column;
+    }
+
+    .section {
+        padding: 80px 0;
+    }
+
+    .section h2 {
+        font-size: 2rem;
+    }
+}
+
+html{
+    scroll-behavior: smooth;
+    }
